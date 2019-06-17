@@ -5,7 +5,7 @@
 TenStepsReturn(size, row, col, test = 1000, discount = 0.9)
 }
 \arguments{
-\item{size}{Size of the environment, it is a square matrix with random number{-1, 0, 1}.}
+\item{size}{Size of the environment, it is a square matrix with random number\{-1, 0, 1\}.}
 
 \item{row}{Row of the start point.}
 
@@ -16,15 +16,15 @@ TenStepsReturn(size, row, col, test = 1000, discount = 0.9)
 \item{discount}{The discount rate for rewards every step.}
 }
 \description{
-To find the maximum of ten-step return after testing at a square matrix with random number{-1, 0, 1} where 0, 1 are rewards and the point -1 can not passthrough.
+To find the maximum of ten-step return after testing at a square matrix with random number\{-1, 0, 1\} where 0, 1 are rewards and the point -1 can not pass through.
 }
 \value{
-N_left:The numbers of times moving to the left at that point.
-N_up:The numbers of times moving up at that point.
-N_right:The numbers of times moving to the right at that point.
-N_down:The numbers of times moving downward at that point.
-Environment:The environment with reward 0 and 1, and the point -1 can not passthrough.
-Path:The passed points.
+N_left:The numbers of times moving to the left at that point. \n
+N_up:The numbers of times moving up at that point. \n
+N_right:The numbers of times moving to the right at that point. \n
+N_down:The numbers of times moving downward at that point. \n
+Environment:The environment with reward 0 and 1, and the point -1 can not passthrough. \n
+Path:The passed points. \n
 Return:The maximum of ten-step return after testing.
 }
 \examples{
